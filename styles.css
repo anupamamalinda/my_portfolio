@@ -43,11 +43,14 @@ h1, h2 {
 .sub-section-title {
     background: #1e3c5a;
     color: white;
-    margin-left: 20px;
+    text-align: justify;
     border-radius: 5px;
     padding-left: 5px;
+    margin-left: 20px;
     transition: background 0.3s ease-in-out;
-    /*font-style: italic;*/
+    /*font-style: italic;
+    
+    */
 }
 .content {
     padding: 10px;
@@ -130,4 +133,9 @@ table {
   }
 
 
-
+  .thick-line {
+    border: none;
+    height: 5px;
+    background-color: #ccc;
+    margin: 20px 0; 
+}
